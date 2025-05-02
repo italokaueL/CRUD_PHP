@@ -1,6 +1,6 @@
 <?php
 session_start(); // Inicia a sessão para armazenar dados do usuário.
-require 'conexao.php'; // Importa a conexão com o banco de dados.
+require 'ARQUIVOS/conexao.php'; // Importa a conexão com o banco de dados.
 ?>
 
 <!doctype html>
@@ -14,10 +14,10 @@ require 'conexao.php'; // Importa a conexão com o banco de dados.
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <?php include('navbar.php'); ?> <!-- Inclusão da barra de navegação -->
+    <?php include('ARQUIVOS/navbar.php'); ?> <!-- Inclusão da barra de navegação -->
 
     <div class="conteiner nt-4">
-        <?php include('mensagem.php');?> <!-- Exibição de mensagens de erro ou sucesso -->
+        <?php include('ARQUIVOS/mensagem.php');?> <!-- Exibição de mensagens de erro ou sucesso -->
 
         <div class="row">
             <div class="col-md-12">
