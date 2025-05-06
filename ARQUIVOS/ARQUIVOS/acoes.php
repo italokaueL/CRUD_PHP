@@ -1,6 +1,6 @@
 <?php
 session_start(); // Inicia a sessão para armazenar mensagens e dados do usuário.
-require 'conexao.php'; // Conexão com o banco de dados.
+require 'ARQUIVOS/conexao.php'; // Conexão com o banco de dados.
 
 if (isset($_POST['create_usuario'])) { // Verifica se o formulário de criação foi submetido.
     // Sanitiza e protege os dados recebidos para evitar SQL Injection.
